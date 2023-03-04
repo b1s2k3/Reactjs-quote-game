@@ -31,6 +31,7 @@ function App() {
     }
     fetchData();
   }, []);
+  
   const next = () => {
     setIndex(currentIndex + 1);
     if (selected === data[currentIndex].author) {
